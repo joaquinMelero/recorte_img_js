@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+
+body{
+    text-align: center;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 120%;
+    align-items: center;
+    margin-top: 5%;
+}
+
+
+.visibility{
+    display: none;
+}
+
+.option_sign {
+    margin-top: 2%;
+
+  }
+
+  .canvas {
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.438), 0 1px 5px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.733), 0 1px 5px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.575), 0 1px 5px rgba(0, 0, 0, 0.05);
+    position:relative;
+  }
+
+  button, input{
+    border: 1px solid #3abe87;
+    background-color: transparent;
+    color: #3abe87;
+    transition-duration: 0.4s;
+     width: 20%;  
+     height: 50%;
+     font-size: 125%;
+  }
+
+  button:hover{
+    background-color: #fafd2d;
+    color: rgb(133, 203, 243);
+  }
+
+  #form_doc_div{
+    width: 80%;
+    margin: auto;
+  }
+
+  .jcrop-holder{
+    margin: auto;
+  }
+
+
+
+ 
